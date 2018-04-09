@@ -29,7 +29,7 @@ public abstract class Person
 
     public String toString()
     {
-        return "PERSON: "+getName()+" "+getBirthday();
+        return "PERSON DETAILS: "+getName()+" "+getBirthday();
     }
 
     public void setBirthday(int year, int month, int day)
